@@ -8,7 +8,7 @@ function FilmContainer({data}) {
 
     
     const genresListed = data.map((genre, index) => {
-        return <FilmFolders key={index} genre={genre}/>
+        return <FilmFolders key={index} genre={genre} genreIndex={index}/>
     })
 
 

@@ -1,3 +1,16 @@
-img {
-  width: 150px;
+.smallImage {
+  width: 300px;
+  max-height: 160px;
+}
+
+.smallCardText {
+  font-size: 1rem;
+  text-align: center;
+  padding: 8px;
+}
+
+.film-cards-container {
+  display: flex;
+  column-gap: 7px;
+  overflow: auto;
 }
