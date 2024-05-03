@@ -1,22 +1,25 @@
 import React from "react";
 import FilmCard from "./FilmCard";
 
-function FilmFolders({genre, data}) {
-    
-    console.log(data)
-    
+function FilmFolders({genre}) {
+    const filmInGenre = genre.results
 
-
+    const films = filmInGenre.map(film => {
+        return <FilmCard key={film.id} details={film} />
+    })
+    
     return (
         <div className="filmTypeContainer">
             <div className="headingContainer">
-                <h2>{genre}</h2>
+                <h2>Hi</h2>
                 <div className="btnContainer">
-                    <button id="leftButton" className="leftButton" data-button="reality tv left"><i className="fa-solid fa-chevron-left"></i></button>
-                    <button id="rightButton" className="rightButton" data-button="reality tv right"><i className="fa-solid fa-chevron-right"></i></button>
+                <button id="leftButton"> scroll left </button>
+                    <button id="rightButton"> scroll right </button>
                 </div>
             </div>
-            <div className="tvItemsContainer" id="realityTv"></div>
+            <div className="film-cards-container">
+                {films}
+            </div>
         </div>
     )
 }

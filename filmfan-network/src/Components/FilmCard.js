@@ -1,8 +1,14 @@
 import React from "react";
 
-function FilmCard() {
+function FilmCard({details}) {
+
+
     return (
-        <div>Film Card</div>
+        <div className="individual-film-card">
+            <img className="movie-image" src={`https://image.tmdb.org/t/p/original/${details.backdrop_path}`} />
+            {details.name ? details.name : details.title}
+            
+            </div>
     )
 }
 
