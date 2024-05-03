@@ -1,16 +1,92 @@
+/* Will effect whole document */
+body {
+  background-color: #010026;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #110f49;
+  border-radius: 30px;
+}
+
+/* Home Page */
+#navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo-ffn-container {
+  display: flex;
+  column-gap: 5px;
+}
+
+#logo-ffn-container img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+
+#navbar-non-login-container {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+#ffn-left-corner-text {
+  font-size: 1.5rem;
+}
+
+.navbar-btns {
+  font-size: 1.5rem;
+}
+
+#welcome-message {
+  text-align: center;
+  padding: 20px;
+  font-size: 3.7rem;
+}
+
+#all-genres-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.film-types-container {
+  padding: 20px 0 20px 0;
+}
+
+.genre-name {
+  font-size: 1.7rem;
+  padding: 10px 0 10px 0;
+  color: rgb(216, 216, 51);
+}
+
+/* Small Image Cards */
 .smallImage {
-  width: 300px;
-  max-height: 160px;
+  width: 400px;
+  max-height: 200px;
+  border-radius: 10px;
 }
 
 .smallCardText {
   font-size: 1rem;
   text-align: center;
   padding: 8px;
+  color: rgb(216, 216, 51);
+  scroll-snap-align: start;
 }
 
 .film-cards-container {
   display: flex;
-  column-gap: 7px;
+  column-gap: 10px;
   overflow: auto;
+  scroll-snap-type: x mandatory;
 }
+/*-------------------*/

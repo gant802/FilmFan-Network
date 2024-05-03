@@ -45,7 +45,7 @@ function Home() {
 
     return (
         <div>
-            <h1>Welcome to the Film Fan Network</h1>
+            <h1 id="welcome-message">Welcome to the Film Fan Network</h1>
             <div id="all-genres-container">
                 <FilmContainer data={allFilm}/>
             </div>
