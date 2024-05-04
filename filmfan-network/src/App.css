@@ -1,16 +1,23 @@
 /* Will effect whole document */
+
+@font-face {
+  font-family: navFont;
+  src: url(./Downloads/Galhau_Heavy.ttf);
+}
+
 body {
   background-color: #010026;
   color: #fff;
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.4rem;
+  height: 0.6rem;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #110f49;
+  background: rgb(216, 216, 51);
   border-radius: 30px;
 }
 
@@ -40,12 +47,18 @@ body {
 }
 
 #ffn-left-corner-text {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-family: navFont;
+  border-bottom: 1px solid white;
 }
 
 .navbar-btns {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-family: navFont;
+  color: #fff;
 }
+
+
 
 #welcome-message {
   text-align: center;
@@ -79,7 +92,7 @@ body {
   font-size: 1rem;
   text-align: center;
   padding: 8px;
-  color: rgb(216, 216, 51);
+  color: #fff;
   scroll-snap-align: start;
 }
 

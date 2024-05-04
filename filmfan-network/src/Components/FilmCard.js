@@ -1,14 +1,22 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 
 function FilmCard({details}) {
+    const navigate = useNavigate()
 
-    const defaultImage = details.backdrop_path ? `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
+    const posterOrBackdrop = details.backdrop_path ? `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
     : `https://image.tmdb.org/t/p/original/${details.poster_path}`
 
+    function handleNavigate() {
+        console.log('navigate', details.id)
+        !details.name ? navigate(`/movie/${details.id}`) : 
+        navigate(`/tv/${details.id}`)
+    }
+
     return (
-        <div className="smallCardContainer">
-            <img className="smallImage" src={defaultImage} />
+        <div className="smallCardContainer" onClick={handleNavigate}>
+            <img className="smallImage" src={posterOrBackdrop} alt={details.name ? details.name : details.title}/>
                 <h3 className="smallCardText">{details.name ? details.name : details.title}</h3>
             </div>
     )
