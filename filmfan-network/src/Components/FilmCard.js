@@ -9,7 +9,6 @@ function FilmCard({details}) {
     : `https://image.tmdb.org/t/p/original/${details.poster_path}`
 
     function handleNavigate() {
-        console.log('navigate', details.id)
         !details.name ? navigate(`/movie/${details.id}`) : 
         navigate(`/tv/${details.id}`)
     }
