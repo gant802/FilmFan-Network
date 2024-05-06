@@ -1,14 +1,40 @@
 {
-    "users": [
+  "users": [
+    {
+      "id": "1",
+      "username": "grantc802",
+      "firstName": "Grant",
+      "lastName": "Cummings",
+      "birthday": "06/08/1997",
+      "email": "grantcummings47@gmail.com",
+      "favorites": [
         {
-            "id": 1,
-            "username": "grantc802",
-            "name": "Grant",
-            "lastName": "Cummings",
-            "email": "grantcummings47@gmail.com",
-            "birthday": "06/08/1997",
-            "favorites": [],
-            "likes": []
+          "id": 843527,
+          "title": "The Idea of You",
+          "rating": 7.621,
+          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
+        },
+        {
+          "id": 1051896,
+          "title": "Arcadian",
+          "rating": 6.338,
+          "overview": "In a near future, normal life on Earth has been decimated. Paul and his two sons, Thomas and Joseph, have been living a half-life – tranquility by day and torment by night. Every night, after the sun sets, they face the unrelenting attacks of a mysterious and violent evil. One day, when Thomas doesn't return home before sundown, Paul must leave the safety of their fortified farm to find him. A nightmarish battle ensues that forces the family to execute a desperate plan to survive."
         }
-    ]
+      ],
+      "likes": [
+        {
+          "id": 934632,
+          "title": "Rebel Moon - Part Two: The Scargiver",
+          "rating": 6.108,
+          "overview": "The rebels gear up for battle against the ruthless forces of the Motherworld as unbreakable bonds are forged, heroes emerge — and legends are made."
+        },
+        {
+          "id": 845111,
+          "title": "The Three Musketeers: Milady",
+          "rating": 6.484,
+          "overview": "D'Artagnan, on a quest to rescue the abducted Constance, runs into the mysterious Milady de Winter again. The tension between the Catholics and the Protestants finally escalates, as the king declares war — forcing the now four musketeers into battle. But as the war goes on, they are tested physically, mentally and emotionally."
+        }
+      ]
+    }
+  ]
 }

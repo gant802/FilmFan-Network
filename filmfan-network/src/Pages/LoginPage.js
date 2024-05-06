@@ -9,7 +9,6 @@ const navigate = useNavigate()
 
 function handleSubmit(e) {
     e.preventDefault()
-    console.log(loginData)
     fetch(`http://localhost:3030/users`)
     .then(res => res.json())
     .then(data => {

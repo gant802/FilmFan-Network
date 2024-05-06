@@ -5,7 +5,6 @@ function NavBar({loggedIn}){
 
     const userFromStorage = localStorage.getItem("user")
     const user = JSON.parse(userFromStorage)
-    console.log(user)
     
     
 
