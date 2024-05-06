@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 function FilmCard({details}) {
     const navigate = useNavigate()
 
-    const posterOrBackdrop = details.backdrop_path ? `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
-    : `https://image.tmdb.org/t/p/original/${details.poster_path}`
+    const posterOrBackdrop = details.poster_path ? `https://image.tmdb.org/t/p/original/${details.poster_path}`
+    : `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
 
     function handleNavigate() {
         !details.name ? navigate(`/movie/${details.id}`) : 
@@ -15,7 +15,9 @@ function FilmCard({details}) {
 
     return (
         <div className="smallCardContainer" onClick={handleNavigate}>
-            <img className="smallImage" src={posterOrBackdrop} alt={details.name ? details.name : details.title}/>
+            <img className="smallImage" src={details.poster_path === null  
+                 ? "https://www.reelviews.net/resources/img/default_poster.jpg"
+                  : posterOrBackdrop } alt={details.name ? details.name : details.title}/>
                 <h3 className="smallCardText">{details.name ? details.name : details.title}</h3>
             </div>
     )

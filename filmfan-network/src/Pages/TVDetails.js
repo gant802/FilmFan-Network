@@ -5,6 +5,12 @@ function TVDetails() {
 const { id } = useParams()
 const [details, setDetails] = useState([])
 
+console.log(details)
+
+
+const posterOrBackdrop = details.poster_path ? `https://image.tmdb.org/t/p/original/${details.poster_path}`
+    : `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
+
 useEffect(() => {
     const options = {
         method: 'GET',
@@ -22,10 +28,19 @@ useEffect(() => {
 }, [])
 
     return (
-        <>
-       <h1>{details.id}</h1>
-       <h2>TV</h2>
-       </>
+        <div className="film-details-container">
+        <div>
+        <img className="film-details-image" src={details.poster_path === null || details.poster_path === undefined
+                 ? "https://www.reelviews.net/resources/img/default_poster.jpg"
+                  : posterOrBackdrop } alt={details.name ? details.name : details.title}/>
+        </div>
+        <div className="film-details-text-container">
+          <h1>{details.name ? details.name : details.title}</h1>
+          <p>{`Rating: ${details.vote_average} / 10`}</p>
+          <button>Like 💗</button><span><button>Favorite ⭐</button></span>
+          <p>{`Description: ${details.overview}`}</p>
+        </div>
+      </div>
     )
 }
 

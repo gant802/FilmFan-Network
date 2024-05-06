@@ -11,7 +11,7 @@ function NavBar(){
             <NavLink to="/" className="navbar-btns">HOME</NavLink>
             <NavLink to="/search" className="navbar-btns">SEARCH</NavLink>
             </div>
-            <NavLink className="navbar-btns" id="login-btn">LOGIN</NavLink>
+            <NavLink to="/login" className="navbar-btns" id="login-btn">LOGIN</NavLink>
         </div>
     )
 }

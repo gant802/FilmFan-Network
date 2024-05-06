@@ -2,41 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import App from './App'
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Home from './Pages/Home';
-import ErrorPage from './Pages/ErrorPage';
-import Search from './Pages/Search';
-import MovieDetails from './Pages/MovieDetails';
-import TVDetails from './Pages/TVDetails';
+import routes from './routes';
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />, 
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/",
-        element: <Home />
-      },
-      {
-        path: "/search",
-        element: <Search />
-      },
-      { 
-        path: "/movie/:id",
-        element: <MovieDetails />
-      },
-      {
-        path: "/tv/:id",
-        element: <TVDetails />
-      }
-    ]
-  }
-])
+const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

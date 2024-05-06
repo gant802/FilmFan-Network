@@ -9,13 +9,10 @@ const [searchResults, setSearchResults] = useState({})
 
 const filmsArray = searchResults.results
 
-console.log(search)
-
 const apiKey = process.env.REACT_APP_API_KEY
 
 function handleSubmit(e) {
     e.preventDefault()
-    console.log("submitted")
 }
 
 useEffect(() => {
