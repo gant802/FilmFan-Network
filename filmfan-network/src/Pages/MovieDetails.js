@@ -14,6 +14,8 @@ const deepCopy = (obj) => {
   return JSON.parse(JSON.stringify(obj));
 };
 
+
+
 useEffect(() => {
   
     const options = {
@@ -24,11 +26,17 @@ useEffect(() => {
         }
       };
       
+      if (id.includes("M")) {
       fetch(`https://api.themoviedb.org/3/movie/${id}?language=en-US`, options)
         .then(response => response.json())
         .then(response => setDetails(() =>response))
         .catch(err => console.error(err))
-
+        } else {
+          fetch(`https://api.themoviedb.org/3/tv/${id}?language=en-US`, options)
+        .then(response => response.json())
+        .then(response => setDetails(response))
+        .catch(err => console.error(err));
+        }
 }, [])
 
 const posterOrBackdrop = details.poster_path ? `https://image.tmdb.org/t/p/original/${details.poster_path}`

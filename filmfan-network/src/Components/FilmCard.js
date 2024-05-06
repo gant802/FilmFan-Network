@@ -9,8 +9,8 @@ function FilmCard({details}) {
     : `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
 
     function handleNavigate() {
-        !details.name ? navigate(`/movie/${details.id}`) : 
-        navigate(`/tv/${details.id}`)
+        !details.name ? navigate(`/movie/${details.id}M`) : 
+        navigate(`/movie/${details.id}`)
     }
 
     return (
