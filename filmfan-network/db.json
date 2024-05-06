@@ -1,11 +1,14 @@
 {
-    "test": [
+    "users": [
         {
             "id": 1,
-            "title": "Godzilla",
-            "year": "2014",
-            "watched": true,
-            "rating": 10
+            "username": "grantc802",
+            "name": "Grant",
+            "lastName": "Cummings",
+            "email": "grantcummings47@gmail.com",
+            "birthday": "06/08/1997",
+            "favorites": [],
+            "likes": []
         }
     ]
 }

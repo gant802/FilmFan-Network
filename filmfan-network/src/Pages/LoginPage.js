@@ -1,14 +1,41 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, {useState} from "react";
+import { Link, useOutletContext, useNavigate } from "react-router-dom";
 
 function LoginPage() {
+const [loginData, setLoginData] = useState("")
+const [loggedIn, setLoggedIn] = useOutletContext()
+
+const navigate = useNavigate()
+
+function handleSubmit(e) {
+    e.preventDefault()
+    console.log(loginData)
+    fetch(`http://localhost:3030/users`)
+    .then(res => res.json())
+    .then(data => {
+        const foundProfile = data.find(user => loginData === user.username)
+        if (foundProfile) {
+            setLoggedIn(() => !loggedIn)
+            localStorage.setItem("user", JSON.stringify(foundProfile))
+            setLoggedIn(() => !loggedIn)
+            navigate(`/userProfile/${foundProfile.id}`)
+        } else {
+            alert("No Profile Found!")
+        }
+        
+    })
+
+
+    
+}
+
     return (
         <div id="login-container">
             <h1>Welcome Back!</h1>
             <div id="login-form">
-                <form>
+                <form onSubmit={(e) => handleSubmit(e)}>
                     <label>{"Username"}</label>
-                    <input type="text" placeholder="Enter username..."></input>
+                    <input value={loginData.value} onChange={(e) => setLoginData(e.target.value)} type="text" placeholder="Enter username..."></input>
                     <button type="submit">Login</button>
                 </form>
                 <p>{`Don't have an account?`}</p>

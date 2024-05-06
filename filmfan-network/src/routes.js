@@ -6,6 +6,7 @@ import TVDetails from './Pages/TVDetails';
 import LoginPage from './Pages/LoginPage';
 import CreateAccount from './Pages/CreateAccount';
 import App from './App'
+import UserProfile from './Pages/UserProfile';
 
 
 
@@ -39,6 +40,10 @@ const routes = [
         {
           path: "/createAccount",
           element: <CreateAccount />
+        },
+        {
+          path: "/userProfile/:id",
+          element: <UserProfile />
         }
       ]
     }
