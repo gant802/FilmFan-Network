@@ -5,7 +5,11 @@ function MovieDetails() {
 const { id } = useParams()
 const [details, setDetails] = useState([])
 const [isLiked, setIsLiked] = useState(false)
-const [isFavorited, setIsFavorited] = useState({})
+const [isFavorited, setIsFavorited] = useState(false)
+
+const [likedFilms, setLikedFilms] = useState([])
+const [favoritedFilms, setFavoritedFilms] = useState([])
+const [userDetails, setUserDetails] = useState({})
 
 const userFromStorage = localStorage.getItem("user")
 const userObjFromStorage = JSON.parse(userFromStorage)
@@ -14,8 +18,6 @@ const deepCopy = (obj) => {
   return JSON.parse(JSON.stringify(obj));
 };
 
-
-console.log(details.id)
 
 useEffect(() => {
     const options = {
@@ -37,17 +39,31 @@ useEffect(() => {
         .then(response => setDetails(response))
         .catch(err => console.error(err));
         }
+
+        if (userObjFromStorage) {
+      fetch(`http://localhost:3030/users/${userObjFromStorage.id}`)
+      .then(res => res.json())
+      .then(data => {
+        setFavoritedFilms(() => data.favorites)
+        setLikedFilms(() => data.likes)
+        setUserDetails(() => data)
+      })
+    }
+
+
+
 }, [])
 
 const posterOrBackdrop = details.poster_path ? `https://image.tmdb.org/t/p/original/${details.poster_path}`
     : `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
 
     
+    
     if (userObjFromStorage) {
       fetch(`http://localhost:3030/users/${userObjFromStorage.id}`)
       .then(res => res.json())
       .then(data => {
-     const likedFilms = data.likes
+        const likedFilms = data.likes
         const favoritedFilms = data.favorites
         const movieLiked = likedFilms.find(film => details.id === film.id)
         const movieFavorited = favoritedFilms.find(film => details.id === film.id)
@@ -55,6 +71,9 @@ const posterOrBackdrop = details.poster_path ? `https://image.tmdb.org/t/p/origi
         movieFavorited ? setIsFavorited(() => true) : setIsFavorited(false)})
     }
 
+   
+    
+    
         
 
 
@@ -72,10 +91,12 @@ function handleLikedClick() {
      vote_average: details.vote_average,
       overview: details.overview
 }
-const userCopy = deepCopy(userObjFromStorage)
-localStorage.removeItem("user")
-userCopy.likes.push(filmToAdd)
-localStorage.setItem("user", JSON.stringify(userCopy))
+const updatedLikedFilm = [...likedFilms, filmToAdd]
+const userCopy = deepCopy(userDetails)
+userCopy.likes = updatedLikedFilm
+setUserDetails(() => userCopy)
+setLikedFilms(updatedLikedFilm)
+
 
   fetch(`http://localhost:3030/users/${userObjFromStorage.id}`, {
     method: "PATCH",
@@ -86,17 +107,18 @@ localStorage.setItem("user", JSON.stringify(userCopy))
   }).then(res => res.json())
   .then(data => setIsLiked(() => true))
   } else {
-    alert("Please Sign or create an account to favorite!")
+    alert("Please Sign or create an account to like!")
   }
-  
 }
 
 //? Logic to handle unliking a film
 function handleUnlikeClick() {
-  const userCopy = deepCopy(userObjFromStorage)
-  localStorage.removeItem("user")
-  userCopy.likes = userCopy.likes.filter(film => film.id !== details.id)
-  localStorage.setItem("user", JSON.stringify(userCopy))
+  const userCopy = deepCopy(userDetails)
+  const likedFilm = userCopy.likes
+  const updatedLikedFilm = likedFilm.filter(film => film.id !== details.id)
+  userCopy.likes = updatedLikedFilm
+  setUserDetails(() => userCopy)
+  setLikedFilms(updatedLikedFilm)
 
   fetch(`http://localhost:3030/users/${userObjFromStorage.id}`, {
     method: "PATCH",
@@ -122,10 +144,14 @@ function handleFavoriteClick() {
      vote_average: details.vote_average,
       overview: details.overview
 }
-const userCopy = deepCopy(userObjFromStorage)
-localStorage.removeItem("user")
-userCopy.favorites.push(filmToAdd)
-localStorage.setItem("user", JSON.stringify(userCopy))
+console.log(favoritedFilms)
+
+const updatedFavoritedFilm = [...favoritedFilms, filmToAdd]
+const userCopy = deepCopy(userDetails)
+userCopy.favorites = updatedFavoritedFilm
+setUserDetails(() => userCopy)
+setFavoritedFilms(updatedFavoritedFilm)
+
 
   fetch(`http://localhost:3030/users/${userObjFromStorage.id}`, {
     method: "PATCH",
@@ -143,10 +169,12 @@ localStorage.setItem("user", JSON.stringify(userCopy))
 
 //? Logic to handle unfavoriting a film
 function handleUnfavoriteClick() {
-  const userCopy = deepCopy(userObjFromStorage)
-  localStorage.removeItem("user")
-  userCopy.favorites = userCopy.favorites.filter(film => film.id !== details.id)
-  localStorage.setItem("user", JSON.stringify(userCopy))
+  const userCopy = deepCopy(userDetails)
+  const favoritedFilm = userCopy.favorites
+  const updatedFavoritedFilm = favoritedFilm.filter(film => film.id !== details.id)
+  userCopy.favorites = updatedFavoritedFilm
+  setUserDetails(() => userCopy)
+  setFavoritedFilms(updatedFavoritedFilm)
 
   fetch(`http://localhost:3030/users/${userObjFromStorage.id}`, {
     method: "PATCH",
