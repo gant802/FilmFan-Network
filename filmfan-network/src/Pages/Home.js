@@ -46,6 +46,9 @@ function Home() {
     return (
         <div>
             <h1 id="welcome-message">Welcome to the Film Fan Network</h1>
+            <p id="page-intro-text">Browse through our genres below or search for Movies and TV Shows! 
+                Create a profile to like or favorite things that you'd like to be saved to your profile!
+            </p>
             <div id="all-genres-container">
                 <FilmContainer data={allFilm}/>
             </div>

@@ -46,7 +46,8 @@ navigate("/login")
 
     return (
         <div id="form-container">
-            <form onSubmit={(e) => handleFormSubmit(e)}>
+            <h2>Creat your Profile!</h2>
+            <form id="new-profile-form" onSubmit={(e) => handleFormSubmit(e)}>
             <label>First Name: </label>
                 <input onChange={(e) => handleFormChange(e)} value={newUserData.firstName} 
                 type="text" name="firstName" />
@@ -73,13 +74,15 @@ navigate("/login")
 
                 <label>Favorite Quote From Movie or TV:</label>
                  <textarea onChange={(e) => handleFormChange(e)} value={newUserData.favoriteFilmQuote}
-                 rows="4" cols="30" placeholder="Luke, I am your father..." name="favoriteFilmQuote"></textarea>
+                 rows="4" cols="30" placeholder="Do not use quotation marks! Example: Luke, I am your father." name="favoriteFilmQuote"></textarea>
 
-                 <label>Quote Author</label>
+                 <label>Author of Quote:</label>
                  <input onChange={(e) => handleFormChange(e)} value={newUserData.quoteAuthor}
-                 type="text" name="quoteAuthor"/>
-
-                <button type="submit">Create Profile</button>
+                 type="text" name="quoteAuthor" placeholder="Darth Vader"/>
+                <div>
+                   <button type="submit">Create Profile</button> 
+                </div>
+                
             </form>
         </div>
     )

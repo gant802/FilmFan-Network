@@ -33,13 +33,14 @@ function handleSubmit(e) {
             <h1>Welcome Back!</h1>
             <div id="login-form">
                 <form onSubmit={(e) => handleSubmit(e)}>
-                    <label>{"Username"}</label>
-                    <input value={loginData.value} onChange={(e) => setLoginData(e.target.value)} type="text" placeholder="Enter username..."></input>
+                    <label>Username:
+                    <input id="username-input" value={loginData.value} onChange={(e) => setLoginData(e.target.value)} type="text" placeholder="Enter username..."></input>
+                    </label>
                     <button type="submit">Login</button>
                 </form>
-                <p>{`Don't have an account?`}</p>
+                <p>Don't have an account?</p>
                 <p>
-                    <Link to={'/createAccount'}>Create Profile</Link>
+                    <Link id="create-profile-text" to={'/createAccount'}>Create Profile</Link>
                 </p>
                 
             </div>
@@ -49,4 +50,3 @@ function handleSubmit(e) {
 
 export default LoginPage
 
-//! Needs logic to see if a user exists

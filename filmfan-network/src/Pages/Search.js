@@ -30,6 +30,7 @@ const resultsListed = filmsArray ? filmsArray.map(film => {
 
     return (
         <div className="search-page-container">
+            <h1>Search for Movies or TV Shows</h1>
         <div className="search-input-container">
             <form id="search-form" onSubmit={handleSubmit}>
                 <input onChange={e => setSearch(e.target.value)} value={search}
