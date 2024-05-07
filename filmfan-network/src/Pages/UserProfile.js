@@ -48,7 +48,7 @@ function UserProfile() {
     return (
         <div id="profile-container">
             <div id="image-name-container">
-                <img id="profile-photo" src={user.profilePhoto ? user.profilePhoto
+                <img id="profile-photo" src={user.profilePhoto === "" ? user.profilePhoto
                     : "https://static.vecteezy.com/system/resources/previews/036/280/650/original/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg"}
                     alt="user profile photo" />
                 <div>

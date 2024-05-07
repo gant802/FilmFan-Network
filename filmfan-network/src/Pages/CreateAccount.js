@@ -9,6 +9,8 @@ const [newUserData, setNewUserData] = useState({
     lastName: "",
     username: "",
     profilePhoto: "",
+    favoriteFilmQuote: "",
+    quoteAuthor: "",
     email: "",
     birthday: "",
     likes: [],
@@ -68,6 +70,14 @@ navigate("/login")
                 <label>Birthday: </label>
                 <input onChange={(e) => handleFormChange(e)} value={newUserData.birthday}
                  type="date" name="birthday" />
+
+                <label>Favorite Quote From Movie or TV:</label>
+                 <textarea onChange={(e) => handleFormChange(e)} value={newUserData.favoriteFilmQuote}
+                 rows="4" cols="30" placeholder="Luke, I am your father..." name="favoriteFilmQuote"></textarea>
+
+                 <label>Quote Author</label>
+                 <input onChange={(e) => handleFormChange(e)} value={newUserData.quoteAuthor}
+                 type="text" name="quoteAuthor"/>
 
                 <button type="submit">Create Profile</button>
             </form>

@@ -84,19 +84,30 @@
           "title": "Ghostbusters: Frozen Empire",
           "vote_average": 6.404,
           "overview": "The Spengler family returns to where it all started – the iconic New York City firehouse – to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age."
+        },
+        {
+          "id": 1111873,
+          "poster_path": "/m3bwUWLBe5ogVB8HmpQs2YNNq3S.jpg",
+          "backdrop_path": "/ySgY4jBvZ6qchrxKnBg4M8tZp8V.jpg",
+          "title": "Abigail",
+          "vote_average": 6.8,
+          "overview": "After a group of would-be criminals kidnap the 12 year old ballerina daughter of a powerful underworld figure, all they have to do to collect a $50 million ransom is watch the girl overnight. In an isolated mansion, the captors start to dwindle, one by one, and they discover, to their mounting horror, that they’re locked inside with no normal little girl."
         }
       ]
     },
     {
-      "id": "1a8c",
+      "id": "31ec",
       "firstName": "Todd",
       "lastName": "Peterson",
       "username": "tpBoy44",
-      "profilePhoto": "djnvoanvoinav",
+      "profilePhoto": "dvnqervin",
+      "favoriteFilmQuote": "Luke I am your father",
+      "quoteAuthor": "Darth Vader",
       "email": "todP@gmail.com",
       "birthday": "1998-06-07",
       "likes": [],
-      "favorites": []
+      "favorites": [],
+      "": "L"
     }
   ]
 }

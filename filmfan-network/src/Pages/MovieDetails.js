@@ -18,7 +18,6 @@ const deepCopy = (obj) => {
 console.log(details.id)
 
 useEffect(() => {
-  
     const options = {
         method: 'GET',
         headers: {
