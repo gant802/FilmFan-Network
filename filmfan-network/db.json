@@ -100,13 +100,55 @@
       "firstName": "Todd",
       "lastName": "Peterson",
       "username": "tpBoy44",
-      "profilePhoto": "dvnqervin",
+      "profilePhoto": "https://lumiere-a.akamaihd.net/v1/images/I-Am-Your-Father_cfc92651.jpeg?region=416%2C0%2C1444%2C812",
       "favoriteFilmQuote": "Luke I am your father",
       "quoteAuthor": "Darth Vader",
       "email": "todP@gmail.com",
       "birthday": "1998-06-07",
-      "likes": [],
-      "favorites": [],
+      "likes": [
+        {
+          "id": 843527,
+          "poster_path": "/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg",
+          "backdrop_path": "/sI6uCeF8mUlZx22mFfHSi9W3XQ9.jpg",
+          "title": "The Idea of You",
+          "vote_average": 7.536,
+          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
+        },
+        {
+          "id": 1094844,
+          "poster_path": "/dJaIw8OgACelojyV6YuVsOhtTLO.jpg",
+          "backdrop_path": "/jnE1GA7cGEfv5DJBoU2t4bZHaP4.jpg",
+          "title": "Ape vs. Mecha Ape",
+          "vote_average": 5.254,
+          "overview": "Recognizing the destructive power of its captive giant Ape, the military makes its own battle-ready A.I., Mecha Ape. But its first practical test goes horribly wrong, leaving the military no choice but to release the imprisoned giant ape to stop the colossal robot before it destroys downtown Chicago."
+        }
+      ],
+      "favorites": [
+        {
+          "id": 843527,
+          "poster_path": "/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg",
+          "backdrop_path": "/sI6uCeF8mUlZx22mFfHSi9W3XQ9.jpg",
+          "title": "The Idea of You",
+          "vote_average": 7.536,
+          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
+        },
+        {
+          "id": 967847,
+          "poster_path": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
+          "backdrop_path": "/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg",
+          "title": "Ghostbusters: Frozen Empire",
+          "vote_average": 6.445,
+          "overview": "The Spengler family returns to where it all started – the iconic New York City firehouse – to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age."
+        },
+        {
+          "id": 929590,
+          "poster_path": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+          "backdrop_path": "/uv2twFGMk2qBdyJBJAVcrpRtSa9.jpg",
+          "title": "Civil War",
+          "vote_average": 7.409,
+          "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war."
+        }
+      ],
       "": "L"
     }
   ]

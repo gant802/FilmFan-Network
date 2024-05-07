@@ -13,9 +13,10 @@ function handleSubmit(e) {
     .then(res => res.json())
     .then(data => {
         const foundProfile = data.find(user => loginData === user.username)
+        const localStorageUserID = {id: foundProfile.id}
         if (foundProfile) {
             setLoggedIn(() => !loggedIn)
-            localStorage.setItem("user", JSON.stringify(foundProfile))
+            localStorage.setItem("user", JSON.stringify(localStorageUserID))
             setLoggedIn(() => !loggedIn)
             navigate(`/userProfile/${foundProfile.id}`)
         } else {
