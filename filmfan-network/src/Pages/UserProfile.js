@@ -6,17 +6,18 @@ function UserProfile() {
     const navigate = useNavigate()
     const userFromStorage = localStorage.getItem("user")
     const userObjFromStoarge = JSON.parse(userFromStorage)
-   
-    const {id} = userObjFromStoarge
 
     const [user, setUser] = useState({})
     
     
 
 useEffect(() => {
-    fetch(`http://localhost:3030/users/${id}`)
+    if(userObjFromStoarge){ 
+        fetch(`http://localhost:3030/users/${userObjFromStoarge.id}`)
     .then(res => res.json())
     .then(data => setUser(() => data))
+    }
+    
 }, [])
 
 

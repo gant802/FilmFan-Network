@@ -43,23 +43,26 @@ const posterOrBackdrop = details.poster_path ? `https://image.tmdb.org/t/p/origi
     : `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
 
     
-fetch(`http://localhost:3030/users/${userObjFromStorage.id}`)
+    if (userObjFromStorage) {
+      fetch(`http://localhost:3030/users/${userObjFromStorage.id}`)
       .then(res => res.json())
       .then(data => {
-        const likedFilms = data.likes
+     const likedFilms = data.likes
         const favoritedFilms = data.favorites
         const movieLiked = likedFilms.find(film => details.id === film.id)
-        console.log(movieLiked)
-        
         const movieFavorited = favoritedFilms.find(film => details.id === film.id)
         movieLiked ? setIsLiked(() => true) : setIsLiked(false)
         movieFavorited ? setIsFavorited(() => true) : setIsFavorited(false)})
+    }
+
+        
 
 
 
 //? Logic to handle liking a movie and adding it to db.json for that user
 function handleLikedClick() {
-  const title = details.name ? details.name : details.title
+  if (userObjFromStorage) {
+    const title = details.name ? details.name : details.title
 
   const filmToAdd = {
     id: details.id,
@@ -80,6 +83,10 @@ localStorage.setItem("user", JSON.stringify(userCopy))
     body: JSON.stringify(userCopy)
   }).then(res => res.json())
   .then(data => setIsLiked(() => true))
+  } else {
+    alert("Please Sign or create an account to favorite!")
+  }
+  
 }
 
 //? Logic to handle unliking a film
@@ -102,7 +109,8 @@ function handleUnlikeClick() {
 
 //? Logic to handle favoriting a movie and adding it to db.json for that user
 function handleFavoriteClick() {
-  const title = details.name ? details.name : details.title
+  if (userObjFromStorage) {
+    const title = details.name ? details.name : details.title
 
   const filmToAdd = {
     id: details.id,
@@ -123,6 +131,10 @@ localStorage.setItem("user", JSON.stringify(userCopy))
     body: JSON.stringify(userCopy)
   }).then(res => res.json())
   .then(data => setIsFavorited(() => true))
+  } else {
+    alert("Please Sign or create an account to favorite!")
+  }
+  
 }
 
 //? Logic to handle unfavoriting a film
@@ -154,10 +166,10 @@ function handleUnfavoriteClick() {
         <div className="film-details-text-container">
           <h1>{details.name ? details.name : details.title}</h1>
           <p>{`Rating: ${details.vote_average} / 10`}</p>
-         {isLiked ?  <button onClick={handleUnlikeClick}>Liked&#10084;</button> 
+         {isLiked && userObjFromStorage ?  <button onClick={handleUnlikeClick}>Liked&#10084;</button> 
          : <button onClick={handleLikedClick}>Like&#9825;</button>}
           <span>
-            {isFavorited ? <button onClick={handleUnfavoriteClick} >Favorited ⭐</button>
+            {isFavorited && userObjFromStorage ? <button onClick={handleUnfavoriteClick} >Favorited ⭐</button>
             : <button onClick={handleFavoriteClick} >Favorite &#9734;</button>}
             </span>
           <p>{`Description: ${details.overview}`}</p>

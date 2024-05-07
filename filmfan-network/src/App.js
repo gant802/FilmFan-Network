@@ -16,9 +16,12 @@ const loggedInOrNot = localStorage.getItem("user")
 if (loggedInOrNot) {
   setLoggedIn(() => true)
 }
-fetch(`http://localhost:3030/users/${userObjFromStorage.id}`)
+if (userObjFromStorage) {
+  fetch(`http://localhost:3030/users/${userObjFromStorage.id}`)
       .then(res => res.json())
       .then(data => setUserData(() => data))
+}
+
 
 }, [])
 

@@ -19,15 +19,15 @@
           "title": "Arcadian",
           "rating": 6.338,
           "overview": "In a near future, normal life on Earth has been decimated. Paul and his two sons, Thomas and Joseph, have been living a half-life – tranquility by day and torment by night. Every night, after the sun sets, they face the unrelenting attacks of a mysterious and violent evil. One day, when Thomas doesn't return home before sundown, Paul must leave the safety of their fortified farm to find him. A nightmarish battle ensues that forces the family to execute a desperate plan to survive."
-        }
-      ],
-      "likes": [
+        },
         {
           "id": 934632,
           "title": "Rebel Moon - Part Two: The Scargiver",
-          "rating": 6.108,
+          "rating": 6.125,
           "overview": "The rebels gear up for battle against the ruthless forces of the Motherworld as unbreakable bonds are forged, heroes emerge — and legends are made."
-        },
+        }
+      ],
+      "likes": [
         {
           "id": 845111,
           "title": "The Three Musketeers: Milady",
@@ -39,6 +39,29 @@
           "title": "Godzilla x Kong: The New Empire",
           "rating": 6.475,
           "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own."
+        },
+        {
+          "id": 934632,
+          "title": "Rebel Moon - Part Two: The Scargiver",
+          "rating": 6.125,
+          "overview": "The rebels gear up for battle against the ruthless forces of the Motherworld as unbreakable bonds are forged, heroes emerge — and legends are made."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "test",
+      "firstName": "Grant",
+      "lastName": "Cummings",
+      "birthday": "06/08/1997",
+      "email": "grantcummings47@gmail.com",
+      "favorites": [],
+      "likes": [
+        {
+          "id": 251091,
+          "title": "Star Wars: Tales of the Empire",
+          "rating": 7.92,
+          "overview": "A journey into the fearsome Galactic Empire through the eyes of two warriors on divergent paths."
         }
       ]
     }
