@@ -5,65 +5,98 @@
       "username": "grantc802",
       "firstName": "Grant",
       "lastName": "Cummings",
+      "favoriteFilmQuote": "Life is like a box of choclates, you never know what you're gonna get.",
+      "quoteAuthor": "Forrest Gump",
+      "profilePhoto": "https://i.guim.co.uk/img/media/78eb1f6bd0f92d4d3cf19f5bddda1a902e2a6fcd/0_95_2371_1422/master/2371.jpg?width=1200&quality=85&auto=format&fit=max&s=e38a50cd354d94cc959a8a34f6536a7c",
       "birthday": "06/08/1997",
       "email": "grantcummings47@gmail.com",
       "favorites": [
         {
-          "id": 843527,
-          "title": "The Idea of You",
-          "rating": 7.621,
-          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
+          "id": 4629,
+          "poster_path": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
+          "backdrop_path": "/5mXZ0sdVPfj4bSkhPSWwTX2LcM5.jpg",
+          "title": "Stargate SG-1",
+          "vote_average": 8.2,
+          "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori."
         },
         {
-          "id": 1051896,
-          "title": "Arcadian",
-          "rating": 6.338,
-          "overview": "In a near future, normal life on Earth has been decimated. Paul and his two sons, Thomas and Joseph, have been living a half-life – tranquility by day and torment by night. Every night, after the sun sets, they face the unrelenting attacks of a mysterious and violent evil. One day, when Thomas doesn't return home before sundown, Paul must leave the safety of their fortified farm to find him. A nightmarish battle ensues that forces the family to execute a desperate plan to survive."
+          "id": 4194,
+          "poster_path": "/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+          "backdrop_path": "/jjECb6dSFUKXDtryuQk4rkFY7oP.jpg",
+          "title": "Star Wars: The Clone Wars",
+          "vote_average": 8.462,
+          "overview": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists."
         },
         {
-          "id": 934632,
-          "title": "Rebel Moon - Part Two: The Scargiver",
-          "rating": 6.125,
-          "overview": "The rebels gear up for battle against the ruthless forces of the Motherworld as unbreakable bonds are forged, heroes emerge — and legends are made."
+          "id": 1111873,
+          "poster_path": "/m3bwUWLBe5ogVB8HmpQs2YNNq3S.jpg",
+          "backdrop_path": "/ySgY4jBvZ6qchrxKnBg4M8tZp8V.jpg",
+          "title": "Abigail",
+          "vote_average": 6.8,
+          "overview": "After a group of would-be criminals kidnap the 12 year old ballerina daughter of a powerful underworld figure, all they have to do to collect a $50 million ransom is watch the girl overnight. In an isolated mansion, the captors start to dwindle, one by one, and they discover, to their mounting horror, that they’re locked inside with no normal little girl."
         }
       ],
       "likes": [
         {
-          "id": 845111,
-          "title": "The Three Musketeers: Milady",
-          "rating": 6.484,
-          "overview": "D'Artagnan, on a quest to rescue the abducted Constance, runs into the mysterious Milady de Winter again. The tension between the Catholics and the Protestants finally escalates, as the king declares war — forcing the now four musketeers into battle. But as the war goes on, they are tested physically, mentally and emotionally."
+          "id": 843527,
+          "poster_path": "/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg",
+          "backdrop_path": "/sI6uCeF8mUlZx22mFfHSi9W3XQ9.jpg",
+          "title": "The Idea of You",
+          "rating": 7.585,
+          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
         },
         {
-          "id": 823464,
-          "title": "Godzilla x Kong: The New Empire",
-          "rating": 6.475,
-          "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own."
+          "id": 940721,
+          "poster_path": "/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
+          "backdrop_path": "/bWIIWhnaoWx3FTVXv6GkYDv3djL.jpg",
+          "title": "Godzilla Minus One",
+          "vote_average": 7.847,
+          "overview": "Postwar Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb."
         },
         {
-          "id": 934632,
-          "title": "Rebel Moon - Part Two: The Scargiver",
-          "rating": 6.125,
-          "overview": "The rebels gear up for battle against the ruthless forces of the Motherworld as unbreakable bonds are forged, heroes emerge — and legends are made."
+          "id": 106379,
+          "poster_path": "/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg",
+          "backdrop_path": "/4d0tMAk49gqbVwgvtQjCriBwyb8.jpg",
+          "title": "Fallout",
+          "vote_average": 8.423,
+          "overview": "The story of haves and have-nots in a world in which there’s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them."
+        },
+        {
+          "id": 1063879,
+          "poster_path": "/dY98PkUAbIGUUg0FhXEcOkbzHIZ.jpg",
+          "backdrop_path": "/k0ucFBBgSDTXYU8fVHXJyjAuIIe.jpg",
+          "title": "Infested",
+          "vote_average": 6.956,
+          "overview": "Residents of a rundown French apartment building battle against an army of deadly, rapidly reproducing spiders."
+        },
+        {
+          "id": 929590,
+          "poster_path": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+          "backdrop_path": "/uv2twFGMk2qBdyJBJAVcrpRtSa9.jpg",
+          "title": "Civil War",
+          "vote_average": 7.409,
+          "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war."
+        },
+        {
+          "id": 967847,
+          "poster_path": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
+          "backdrop_path": "/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg",
+          "title": "Ghostbusters: Frozen Empire",
+          "vote_average": 6.404,
+          "overview": "The Spengler family returns to where it all started – the iconic New York City firehouse – to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age."
         }
       ]
     },
     {
-      "id": "2",
-      "username": "test",
-      "firstName": "Grant",
-      "lastName": "Cummings",
-      "birthday": "06/08/1997",
-      "email": "grantcummings47@gmail.com",
-      "favorites": [],
-      "likes": [
-        {
-          "id": 251091,
-          "title": "Star Wars: Tales of the Empire",
-          "rating": 7.92,
-          "overview": "A journey into the fearsome Galactic Empire through the eyes of two warriors on divergent paths."
-        }
-      ]
+      "id": "1a8c",
+      "firstName": "Todd",
+      "lastName": "Peterson",
+      "username": "tpBoy44",
+      "profilePhoto": "djnvoanvoinav",
+      "email": "todP@gmail.com",
+      "birthday": "1998-06-07",
+      "likes": [],
+      "favorites": []
     }
   ]
 }

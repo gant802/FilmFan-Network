@@ -15,6 +15,7 @@ const deepCopy = (obj) => {
 };
 
 
+console.log(details.id)
 
 useEffect(() => {
   
@@ -66,8 +67,10 @@ function handleLikedClick() {
 
   const filmToAdd = {
     id: details.id,
+    poster_path: details.poster_path,
+    backdrop_path: details.backdrop_path,
      title: title,
-     rating: details.vote_average,
+     vote_average: details.vote_average,
       overview: details.overview
 }
 const userCopy = deepCopy(userObjFromStorage)
@@ -114,8 +117,10 @@ function handleFavoriteClick() {
 
   const filmToAdd = {
     id: details.id,
+    poster_path: details.poster_path,
+    backdrop_path: details.backdrop_path,
      title: title,
-     rating: details.vote_average,
+     vote_average: details.vote_average,
       overview: details.overview
 }
 const userCopy = deepCopy(userObjFromStorage)
