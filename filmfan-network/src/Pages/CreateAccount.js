@@ -46,7 +46,7 @@ navigate("/login")
 
     return (
         <div id="form-container">
-            <h2>Creat your Profile!</h2>
+            <h2>Create your Profile</h2>
             <form id="new-profile-form" onSubmit={(e) => handleFormSubmit(e)}>
             <label>First Name: </label>
                 <input onChange={(e) => handleFormChange(e)} value={newUserData.firstName} 
