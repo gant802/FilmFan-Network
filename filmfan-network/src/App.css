@@ -188,9 +188,8 @@ body {
 /* TV or Movie Details page */
 
 .film-details-container {
-  /* border: 1px solid white; */
   padding-top: 100px;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
   column-gap: 20px;
@@ -201,12 +200,33 @@ body {
   border-radius: 20px;
 }
 
+.film-rating {
+  color: rgb(216, 216, 51);
+}
+
+.film-details-text-container button{
+  background-color: rgb(82, 81, 145);
+  color: #fff;
+  border-radius: 20px;
+}
+
+.like-favorite-btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 43%;
+}
+
+.overview {
+  padding-top: 20px;
+  margin: 0;
+  color: rgb(216, 216, 51);
+}
+
 /*-------TV or Movie Details end-----*/
 
 /* User Profile */
 
 #profile-container {
-  /* border: 1px solid white; */
   padding-top: 30px;
   width: 85%;
   margin: 0 auto;
@@ -352,3 +372,20 @@ display: block;
   width: max-content;
   margin: 0 auto;
 }
+
+/*----Create Profile End-------*/
+
+/* Error Page */
+
+#error-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  text-align: center;
+}
+
+#error-container img {
+  padding: 20px;
+}
+

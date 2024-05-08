@@ -90,8 +90,8 @@ function MovieDetails() {
         vote_average: details.vote_average,
         overview: details.overview
       }
-      const updatedLikedFilm = [...likedFilms, filmToAdd]
       const userCopy = deepCopy(userDetails)
+      const updatedLikedFilm = [...likedFilms, filmToAdd]
       userCopy.likes = updatedLikedFilm
       setUserDetails(() => userCopy)
       setLikedFilms(updatedLikedFilm)
@@ -144,9 +144,8 @@ function MovieDetails() {
         vote_average: details.vote_average,
         overview: details.overview
       }
-
-      const updatedFavoritedFilm = [...favoritedFilms, filmToAdd]
       const userCopy = deepCopy(userDetails)
+      const updatedFavoritedFilm = [...favoritedFilms, filmToAdd]
       userCopy.favorites = updatedFavoritedFilm
       setUserDetails(() => userCopy)
       setFavoritedFilms(updatedFavoritedFilm)
@@ -200,14 +199,17 @@ function MovieDetails() {
       </div>
       <div className="film-details-text-container">
         <h1>{details.name ? details.name : details.title}</h1>
-        <p>{`Rating: ${details.vote_average} / 10`}</p>
-        {isLiked && userObjFromStorage ? <button onClick={handleUnlikeClick}>Liked&#10084;</button>
-          : <button onClick={handleLikedClick}>Like&#9825;</button>}
-        <span>
+        <p className="film-rating">{`Rating: ${details.vote_average} / 10`}</p>
+        <div className="like-favorite-btn-container">
+          {isLiked && userObjFromStorage ? <button onClick={handleUnlikeClick}>Liked&#10084;</button>
+            : <button onClick={handleLikedClick}>Like&#9825;</button>}
+
           {isFavorited && userObjFromStorage ? <button onClick={handleUnfavoriteClick} >Favorited ⭐</button>
             : <button onClick={handleFavoriteClick} >Favorite &#9734;</button>}
-        </span>
-        <p>{`Description: ${details.overview}`}</p>
+        </div>
+
+          <p className="overview" ><strong>Overview</strong></p>
+        <p className="description-text">{`${details.overview}`}</p>
       </div>
     </div>
 
