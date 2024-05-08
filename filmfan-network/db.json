@@ -12,86 +12,70 @@
       "email": "grantcummings47@gmail.com",
       "favorites": [
         {
+          "id": 823464,
+          "poster_path": "/1DTP1Ph4uzNO6ofRUm7eAimWoKD.jpg",
+          "backdrop_path": "/qrGtVFxaD8c7et0jUtaYhyTzzPg.jpg",
+          "title": "Godzilla x Kong: The New Empire",
+          "vote_average": 6.488,
+          "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own."
+        },
+        {
+          "id": 653346,
+          "poster_path": "/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
+          "backdrop_path": "/fypydCipcWDKDTTCoPucBsdGYXW.jpg",
+          "title": "Kingdom of the Planet of the Apes",
+          "vote_average": 7.1,
+          "overview": "Several generations in the future following Caesar's reign, apes are now the dominant species and live harmoniously while humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all that he has known about the past and to make choices that will define a future for apes and humans alike."
+        },
+        {
           "id": 4629,
           "poster_path": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
           "backdrop_path": "/5mXZ0sdVPfj4bSkhPSWwTX2LcM5.jpg",
-          "title": "Stargate SG-1",
+          "name": "Stargate SG-1",
           "vote_average": 8.2,
           "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori."
         },
         {
-          "id": 4194,
-          "poster_path": "/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
-          "backdrop_path": "/jjECb6dSFUKXDtryuQk4rkFY7oP.jpg",
-          "title": "Star Wars: The Clone Wars",
-          "vote_average": 8.462,
-          "overview": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists."
-        },
-        {
-          "id": 1111873,
-          "poster_path": "/m3bwUWLBe5ogVB8HmpQs2YNNq3S.jpg",
-          "backdrop_path": "/ySgY4jBvZ6qchrxKnBg4M8tZp8V.jpg",
-          "title": "Abigail",
-          "vote_average": 6.8,
-          "overview": "After a group of would-be criminals kidnap the 12 year old ballerina daughter of a powerful underworld figure, all they have to do to collect a $50 million ransom is watch the girl overnight. In an isolated mansion, the captors start to dwindle, one by one, and they discover, to their mounting horror, that they’re locked inside with no normal little girl."
-        },
-        {
-          "id": 940721,
-          "poster_path": "/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
-          "backdrop_path": "/bWIIWhnaoWx3FTVXv6GkYDv3djL.jpg",
-          "title": "Godzilla Minus One",
-          "vote_average": 7.821,
-          "overview": "Postwar Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb."
+          "id": 249856,
+          "poster_path": "/cqFzO4MhCxcBRlhjT6dC8EwXB8t.jpg",
+          "backdrop_path": "/6TrTcx7Sv0octtvEsvsQkvQq6Eb.jpg",
+          "name": "Sinister Beings 2",
+          "vote_average": 5.5,
+          "overview": "Following the success of part 1, \"Sinister Beings 2\" returns with a familiar cast.\n\nTwo senior detectives Hua Tuan Sam (played by Tran Trien Bang) and Tham Vi Luc (played by Huynh Tri Hien) work together for the Organized Crime Investigation Team and the OCTB or Point O (Organized Crime and Triad Bureau). With their intelligence and sharp observation ability, they solve many cases."
         }
       ],
       "likes": [
         {
-          "id": 843527,
-          "poster_path": "/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg",
-          "backdrop_path": "/sI6uCeF8mUlZx22mFfHSi9W3XQ9.jpg",
-          "title": "The Idea of You",
-          "rating": 7.585,
-          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
+          "id": 4546,
+          "poster_path": "/mZqWmSq1M61Jlre3furVDSXvdrN.jpg",
+          "backdrop_path": "/u98PeujOJCXCowph9mxRzo9Nw1s.jpg",
+          "name": "Curb Your Enthusiasm",
+          "vote_average": 8.023,
+          "overview": "The off-kilter, unscripted comic vision of Larry David, who plays himself in a parallel universe in which he can't seem to do anything right, and, by his standards, neither can anyone else."
         },
         {
-          "id": 106379,
-          "poster_path": "/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg",
-          "backdrop_path": "/4d0tMAk49gqbVwgvtQjCriBwyb8.jpg",
-          "title": "Fallout",
-          "vote_average": 8.423,
-          "overview": "The story of haves and have-nots in a world in which there’s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them."
+          "id": 1421,
+          "poster_path": "/klL4yhwiU8aF4AuF5dCfJA9sRnS.jpg",
+          "backdrop_path": "/x4lxFIhhrDI4nWtV8osnYwbGESV.jpg",
+          "name": "Modern Family",
+          "vote_average": 7.853,
+          "overview": "The Pritchett-Dunphy-Tucker clan is a wonderfully large and blended family. They give us an honest and often hilarious look into the sometimes warm, sometimes twisted, embrace of the modern family."
         },
         {
-          "id": 1063879,
-          "poster_path": "/dY98PkUAbIGUUg0FhXEcOkbzHIZ.jpg",
-          "backdrop_path": "/k0ucFBBgSDTXYU8fVHXJyjAuIIe.jpg",
-          "title": "Infested",
-          "vote_average": 6.956,
-          "overview": "Residents of a rundown French apartment building battle against an army of deadly, rapidly reproducing spiders."
+          "id": 46298,
+          "poster_path": "/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg",
+          "backdrop_path": "/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
+          "name": "Hunter x Hunter",
+          "vote_average": 8.627,
+          "overview": "Twelve-year-old Gon Freecss one day discovers that the father he had always been told was dead was alive. His Father, Ging, is a Hunter — a member of society's elite with a license to go anywhere or do almost anything. Gon, determined to follow in his father's footsteps, decides to take the Hunter Examination and eventually find his father to prove himself as a Hunter in his own right. But on the way, he learns that there is more to becoming a Hunter than previously thought, and the challenges that he must face are considered the toughest in the world."
         },
         {
-          "id": 929590,
-          "poster_path": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
-          "backdrop_path": "/uv2twFGMk2qBdyJBJAVcrpRtSa9.jpg",
-          "title": "Civil War",
-          "vote_average": 7.409,
-          "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war."
-        },
-        {
-          "id": 967847,
-          "poster_path": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
-          "backdrop_path": "/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg",
-          "title": "Ghostbusters: Frozen Empire",
-          "vote_average": 6.404,
-          "overview": "The Spengler family returns to where it all started – the iconic New York City firehouse – to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age."
-        },
-        {
-          "id": 1111873,
-          "poster_path": "/m3bwUWLBe5ogVB8HmpQs2YNNq3S.jpg",
-          "backdrop_path": "/ySgY4jBvZ6qchrxKnBg4M8tZp8V.jpg",
-          "title": "Abigail",
-          "vote_average": 6.8,
-          "overview": "After a group of would-be criminals kidnap the 12 year old ballerina daughter of a powerful underworld figure, all they have to do to collect a $50 million ransom is watch the girl overnight. In an isolated mansion, the captors start to dwindle, one by one, and they discover, to their mounting horror, that they’re locked inside with no normal little girl."
+          "id": 94664,
+          "poster_path": "/z4rvmhoqQiGMnwuBHY1QcH3OqUo.jpg",
+          "backdrop_path": "/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
+          "name": "Mushoku Tensei: Jobless Reincarnation",
+          "vote_average": 8.523,
+          "overview": "A 34-year-old hikikomori is kicked out of his home by his family after the death of his parents. After his eviction, he saves a group of teenagers from being killed by a speeding truck, but loses his life in the process. When he comes to, he realizes he has been reborn as Rudeus Greyrat, in a world of swords and sorcery."
         }
       ]
     },
@@ -105,50 +89,8 @@
       "quoteAuthor": "Darth Vader",
       "email": "todP@gmail.com",
       "birthday": "1998-06-07",
-      "likes": [
-        {
-          "id": 843527,
-          "poster_path": "/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg",
-          "backdrop_path": "/sI6uCeF8mUlZx22mFfHSi9W3XQ9.jpg",
-          "title": "The Idea of You",
-          "vote_average": 7.536,
-          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
-        },
-        {
-          "id": 1094844,
-          "poster_path": "/dJaIw8OgACelojyV6YuVsOhtTLO.jpg",
-          "backdrop_path": "/jnE1GA7cGEfv5DJBoU2t4bZHaP4.jpg",
-          "title": "Ape vs. Mecha Ape",
-          "vote_average": 5.254,
-          "overview": "Recognizing the destructive power of its captive giant Ape, the military makes its own battle-ready A.I., Mecha Ape. But its first practical test goes horribly wrong, leaving the military no choice but to release the imprisoned giant ape to stop the colossal robot before it destroys downtown Chicago."
-        }
-      ],
-      "favorites": [
-        {
-          "id": 843527,
-          "poster_path": "/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg",
-          "backdrop_path": "/sI6uCeF8mUlZx22mFfHSi9W3XQ9.jpg",
-          "title": "The Idea of You",
-          "vote_average": 7.536,
-          "overview": "40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
-        },
-        {
-          "id": 967847,
-          "poster_path": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
-          "backdrop_path": "/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg",
-          "title": "Ghostbusters: Frozen Empire",
-          "vote_average": 6.445,
-          "overview": "The Spengler family returns to where it all started – the iconic New York City firehouse – to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age."
-        },
-        {
-          "id": 929590,
-          "poster_path": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
-          "backdrop_path": "/uv2twFGMk2qBdyJBJAVcrpRtSa9.jpg",
-          "title": "Civil War",
-          "vote_average": 7.409,
-          "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war."
-        }
-      ],
+      "likes": [],
+      "favorites": [],
       "": "L"
     }
   ]

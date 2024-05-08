@@ -39,6 +39,7 @@ function UserProfile() {
         return <FilmCard key={film.id} details={film} />
     })
 
+
     const likedListed = likedFilms.map(film => {
         return <FilmCard key={film.id} details={film} />
     })

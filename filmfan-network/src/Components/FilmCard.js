@@ -5,11 +5,17 @@ import { useNavigate } from "react-router-dom";
 function FilmCard({details}) {
     const navigate = useNavigate()
 
+
+    //? Logic to handle if a tv or movie does not have a poster image path
     const posterOrBackdrop = details.poster_path ? `https://image.tmdb.org/t/p/original/${details.poster_path}`
     : `https://image.tmdb.org/t/p/original/${details.backdrop_path}`
 
+
+
+
+    //? Function to handle navigating to the movie details page. (movies have a different path than TV...see Movie Details component)
     function handleNavigate() {
-        !details.name ? navigate(`/movie/${details.id}M`) : 
+        details.title ? navigate(`/movie/${details.id}M`) : 
         navigate(`/movie/${details.id}`)
     }
 

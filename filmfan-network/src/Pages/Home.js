@@ -3,10 +3,10 @@ import FilmContainer from "../Components/FilmContainer";
 
 function Home() {
 
+    //* State for all genre objects (with an array of films in each obj) combined into one array
     const [allFilm, setAllFilm] = useState([])
 
     const apiKey = process.env.REACT_APP_API_KEY
-
 
     useEffect(() => {
 
@@ -26,6 +26,7 @@ function Home() {
             `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&page=1&with_genres=53&without_genres=27%2C%2028%2C%2035%2C%2010749`
         ];
         
+        //! Handles all fetching and awaits for ALL response data before moving to each susequent .then
         Promise.all(fetchArray.map(url => fetch(url)))
             .then(responses => {
                 return Promise.all(responses.map(response => response.json()));
@@ -41,6 +42,7 @@ function Home() {
     }, [])
     
 
+
     
 
     return (
@@ -50,7 +52,7 @@ function Home() {
                 Create a profile to like or favorite things that you'd like to be saved to your profile!
             </p>
             <div id="all-genres-container">
-                <FilmContainer data={allFilm}/>
+                <FilmContainer data={allFilm} />
             </div>
         </div>
     )

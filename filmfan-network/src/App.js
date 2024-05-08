@@ -4,13 +4,12 @@ import NavBar from './Components/NavBar';
 import { Outlet } from 'react-router-dom';
 
 function App() {
-const [loggedIn, setLoggedIn] = useState(false)
+  //! Important: State to determine if a user is already logged on or not if page refreshes for some reason
+const [loggedIn, setLoggedIn] = useState(false)  
 
-
-const userFromStorage = localStorage.getItem("user")
-    const userObjFromStorage = JSON.parse(userFromStorage)
 
 useEffect(() => {
+  // Logic to determine if user is logged on or not
 const loggedInOrNot = localStorage.getItem("user")
 if (loggedInOrNot) {
   setLoggedIn(() => true)
@@ -25,7 +24,7 @@ if (loggedInOrNot) {
   return (
     <div>
     <NavBar loggedIn={loggedIn}/>
-    <Outlet context={[loggedIn, setLoggedIn]}/>
+    <Outlet context={[loggedIn, setLoggedIn,]}/>
     </div>
     
   );

@@ -3,6 +3,7 @@ import FilmCard from "./FilmCard";
 
 function FilmFolders({genre, genreIndex}) {
 
+    //? Genre names array that gets linked to each genre of movies (in a specific order based on initial fetch on Home page)
 const genreName = ["Trending TV and Movies", "Action Movies", "Action TV", 
 "Comedy Movies", "Comedy TV", "Documentaries", "Drama TV", "Family TV", 
 "Horror Movies", "Kids TV", "Reality TV", "Romance Movies", "Thriller Movies"]

@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar({loggedIn}){
 
+    //! Gets the id of the logged im user to navigate to their page (line 21 logic)
     const userFromStorage = localStorage.getItem("user")
     const user = JSON.parse(userFromStorage)
     
