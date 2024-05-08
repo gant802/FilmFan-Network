@@ -22,6 +22,9 @@ This is a personal project that is frontend only and showcases my knowledge I ha
 4. Run $ npm start     (redirects you to a internet page to use the aplication)
 
 
+## Known Bugs
+
+1. There is only one known bug that I have not figured out how to work around yet. When you click any movie or TV show and you load the deatiled description of it, before the poster is rendered it briefly shows a "no poster found" photo. this is due to some movies or TV shows that do not have a poster (it fills in the poster photo with this). But I have not figured out a way to get rid of it as the default rendered poster photo before the real poster loads.
 
 
 ## Find a bug? 
