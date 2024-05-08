@@ -213,7 +213,7 @@ body {
 .like-favorite-btn-container {
   display: flex;
   justify-content: space-between;
-  width: 43%;
+  width: 180px;
 }
 
 .overview {
