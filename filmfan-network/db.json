@@ -20,14 +20,6 @@
           "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own."
         },
         {
-          "id": 653346,
-          "poster_path": "/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
-          "backdrop_path": "/fypydCipcWDKDTTCoPucBsdGYXW.jpg",
-          "title": "Kingdom of the Planet of the Apes",
-          "vote_average": 7.1,
-          "overview": "Several generations in the future following Caesar's reign, apes are now the dominant species and live harmoniously while humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all that he has known about the past and to make choices that will define a future for apes and humans alike."
-        },
-        {
           "id": 4629,
           "poster_path": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
           "backdrop_path": "/5mXZ0sdVPfj4bSkhPSWwTX2LcM5.jpg",
@@ -76,6 +68,22 @@
           "name": "Mushoku Tensei: Jobless Reincarnation",
           "vote_average": 8.523,
           "overview": "A 34-year-old hikikomori is kicked out of his home by his family after the death of his parents. After his eviction, he saves a group of teenagers from being killed by a speeding truck, but loses his life in the process. When he comes to, he realizes he has been reborn as Rudeus Greyrat, in a world of swords and sorcery."
+        },
+        {
+          "id": 28932,
+          "poster_path": "/yiqQHB0vZg9O6z7VvAefV3fSPqX.jpg",
+          "backdrop_path": "/soryIIVwUFTtD13eS41vfFBxjj9.jpg",
+          "title": "F.I.S.T.",
+          "vote_average": 6.6,
+          "overview": "Johnny Kovak joins the Teamsters trade-union in a local chapter in the 1930s and works his way up in the organization. As he climbs higher and higher his methods become more ruthless and finally senator Madison starts a campaign to find the truth about the alleged connections with the Mob."
+        },
+        {
+          "id": 138502,
+          "poster_path": "/9Ycz7yYRf9V4jk3YXwcZhFtbNcF.jpg",
+          "backdrop_path": "/iDnTAeR2WNA62XQG0ivtteDSjd5.jpg",
+          "name": "X-Men '97",
+          "vote_average": 8.765,
+          "overview": "The X-Men, a band of mutants who use their uncanny gifts to protect a world that hates and fears them, are challenged like never before, forced to face a dangerous and unexpected new future."
         }
       ]
     },

@@ -51,12 +51,6 @@ body {
   width: 450px;
 }
 
-#ffn-left-corner-text {
-  font-size: 1.7rem;
-  font-family: navFont;
-  border-bottom: 1px solid white;
-}
-
 .navbar-btns {
   font-size: 1.7rem;
   font-family: navFont;
@@ -189,7 +183,7 @@ body {
 
 .film-details-container {
   padding-top: 100px;
-  width: 75%;
+  width: 900px;
   margin: 0 auto;
   display: flex;
   column-gap: 20px;
