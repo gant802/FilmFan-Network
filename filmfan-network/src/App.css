@@ -322,6 +322,10 @@ body {
   background-color: rgb(216, 216, 51);
 }
 
+#no-account-text {
+  padding-top: 7px;
+}
+
 #create-profile-text {
   color: rgb(216, 216, 51);
 }

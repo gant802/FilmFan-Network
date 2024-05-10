@@ -31,12 +31,12 @@ function LoginPage() {
             <h1>Welcome Back!</h1>
             <div id="login-form">
                 <form onSubmit={(e) => handleSubmit(e)}>
-                    <label>Username:
+                    <label>
                         <input id="username-input" value={loginData.value} onChange={(e) => setLoginData(e.target.value)} type="text" placeholder="Enter username..."></input>
                     </label>
                     <button type="submit">Login</button>
                 </form>
-                <p>Don't have an account?</p>
+                <p id="no-account-text">Don't have an account?</p>
                 <p>
                     <Link id="create-profile-text" to={'/createAccount'}>Create Profile</Link>
                 </p>
