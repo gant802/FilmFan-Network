@@ -10,7 +10,7 @@ function LoginPage() {
     //? Logic to handle logging in if a user is found or not
     function handleSubmit(e) {
         e.preventDefault()
-        fetch(`http://localhost:3030/users`)
+        fetch(`https://ffn-json-server-template.onrender.com/users`)
             .then(res => res.json())
             .then(data => {
                 const foundProfile = data.find(user => loginData === user.username)

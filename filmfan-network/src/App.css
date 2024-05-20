@@ -86,15 +86,25 @@ body {
 
 .genre-name {
   font-size: 1.7rem;
-  padding: 10px 0 10px 0;
+  padding-top: 10px;
   color: rgb(216, 216, 51);
 }
 
 /* Small Image Cards */
+.smallCardContainer {
+  height: 340px;
+  margin-top: 7px;
+}
+
 .smallImage {
   border-radius: 10px;
   width: 250px;
   max-height: 280px;
+}
+
+.smallImage:hover {
+  cursor: pointer;
+  transform: scale(1.04);
 }
 
 .smallCardText {
@@ -107,7 +117,9 @@ body {
 
 .film-cards-container{
   display: flex;
-  column-gap: 10px;
+  height: 370px;
+  align-items: flex-end;
+  column-gap: 15px;
   overflow: auto;
   scroll-snap-type: x mandatory;
 }
@@ -165,10 +177,6 @@ body {
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease;
-}
-
-.search-result-image:hover {
-  transform: scale(1.1);
 }
 
 .search-result-text {
@@ -275,6 +283,7 @@ body {
 
 #favorited-film-container, #liked-film-container {
   display: flex;
+  height: 370px;
   column-gap: 10px;
   overflow: auto;
   scroll-snap-type: x mandatory;
@@ -282,7 +291,7 @@ body {
 }
 
 .favorite-and-liked-text {
-  padding: 20px 0 20px 0;
+  padding-top: 20px;
   color: rgb(216, 216, 51);
   font-size: 2.2rem;
 }
@@ -364,6 +373,12 @@ display: block;
 #new-profile-form button {
   background-color: rgb(216, 216, 51);
   font-size: 2rem;
+  border-radius: 17px;
+  border: none;
+}
+
+#new-profile-form button:hover {
+  background-color: rgb(172, 172, 12)
 }
 
 #new-profile-form div {

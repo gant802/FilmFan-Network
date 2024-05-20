@@ -91,7 +91,7 @@ function MovieDetails() {
         overview: details.overview
       }
       const userCopy = deepCopy(userDetails)
-      const updatedLikedFilm = [...likedFilms, filmToAdd]
+      const updatedLikedFilm = [filmToAdd, ...likedFilms]
       userCopy.likes = updatedLikedFilm
       setUserDetails(() => userCopy)
       setLikedFilms(updatedLikedFilm)
@@ -106,7 +106,7 @@ function MovieDetails() {
       }).then(res => res.json())
         .then(data => setIsLiked(() => true))
     } else {
-      alert("Please Sign or create an account to like!")
+      alert("Please login or create an account to like!")
     }
   }
 
@@ -145,7 +145,7 @@ function MovieDetails() {
         overview: details.overview
       }
       const userCopy = deepCopy(userDetails)
-      const updatedFavoritedFilm = [...favoritedFilms, filmToAdd]
+      const updatedFavoritedFilm = [filmToAdd, ...favoritedFilms]
       userCopy.favorites = updatedFavoritedFilm
       setUserDetails(() => userCopy)
       setFavoritedFilms(updatedFavoritedFilm)
@@ -160,7 +160,7 @@ function MovieDetails() {
       }).then(res => res.json())
         .then(data => setIsFavorited(() => true))
     } else {
-      alert("Please Sign or create an account to favorite!")
+      alert("Please login or create an account to favorite!")
     }
 
   }
