@@ -11,15 +11,22 @@ This is a personal project that is frontend only and showcases my knowledge I ha
 * To like or favorite movies on the details page, you must first login or create an account. Do so by clicking "Login", located at the top right of the page
 * All liked and favorited movies will be displayed within your profile. (Navigate to your profile by clicking "My Profile" at the top right of the page where "Login" used to be)
 
+## PLEASE READ THIS BEFORE CLICKING THE LINK TO THE PROJECT
+- This project is uses Netlify and Render to deploy the front end and json server as a mock rest API. retrieving the json server info from Render is extremely slow and I highley recommend forking this repo and cloning down to your local computer. Please follow the instructions below to run this on your local computer. 
 
+## https://filmfan-network.netlify.app/   --> Link to site
 
 
 ## How to install and use this application in your local computer
 
 1. Fork and clone the repo to a repository within your GitHub.
 2. Run $ npm install    (to install all of the dependencies of this application)
-3. Run $ json-server --watch db.json --port 3030  (to have your computer be able to see data within the db.json file for saving things to your profile)
-4. Run $ npm start     (redirects you to a internet page to use the aplication)
+3. Comment out line 14 within src/Pages/LoginPage.js
+4. Uncomment line 13 within src/Pages/LoginPage.js
+5. Comment out line 21 within src/Pages/UserProfile.js
+6. Uncomment line 20 within src/Pages/UserProfile.js
+4. Run $ json-server --watch db.json --port 3030  (to have your computer be able to see data within the db.json file for saving things to your profile)
+5. Run $ npm start     (redirects you to a internet page to use the aplication)
 
 
 ## Known Bugs
