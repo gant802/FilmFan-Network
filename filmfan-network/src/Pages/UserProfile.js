@@ -17,8 +17,8 @@ function UserProfile() {
 
     useEffect(() => {
         if (userObjFromStoarge) {
-            // fetch(`http://localhost:3030/users/${userObjFromStoarge.id}`)
-            fetch(`https://ffn-json-server-template.onrender.com/users/${userObjFromStoarge.id}`)
+            fetch(`http://localhost:3030/users/${userObjFromStoarge.id}`)
+            // fetch(`https://ffn-json-server-template.onrender.com/users/${userObjFromStoarge.id}`)
                 .then(res => res.json())
                 .then(data => {
                     setUser(() => data)

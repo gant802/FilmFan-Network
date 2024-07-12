@@ -12,6 +12,22 @@
       "email": "grantcummings47@gmail.com",
       "favorites": [
         {
+          "id": 931,
+          "poster_path": "/omwfYtYuz67f5cyYqh7CvfqkpO3.jpg",
+          "backdrop_path": "/CK181mxEMf9iwQhvHd8DMgMFda.jpg",
+          "name": "He-Man and the Masters of the Universe",
+          "vote_average": 7.235,
+          "overview": "When Adam, Prince of the planet Eternia, raises his magic sword he transforms into He-Man (the most powerful man in the universe).  With his allies and friends, he battles the evil Skeletor and his minions to protect the secrets of Castle Greyskull."
+        },
+        {
+          "id": 76479,
+          "poster_path": "/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg",
+          "backdrop_path": "/7cqKGQMnNabzOpi7qaIgZvQ7NGV.jpg",
+          "name": "The Boys",
+          "vote_average": 8.474,
+          "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty."
+        },
+        {
           "id": 967847,
           "poster_path": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
           "backdrop_path": "/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg",
@@ -78,20 +94,28 @@
       ],
       "likes": [
         {
+          "id": 51019,
+          "poster_path": "/7KNvabIPtsfR01H1bJwc1sobRUM.jpg",
+          "backdrop_path": "/dAb6XKP1Zcykbo6LCM9ibG8ktQj.jpg",
+          "name": "Almost Human",
+          "vote_average": 7.399,
+          "overview": "The year is 2048. By mandate, every cop must partner with a robot. Detective John Kennex returns to work after waking up from a 17-month coma. As he adjusts to working with his new partner, Dorian, a discontinued android with unexpected emotional responses, John also must learn to get along with his new colleagues."
+        },
+        {
+          "id": 786892,
+          "poster_path": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+          "backdrop_path": "/q8IEFmEGGSGmAWfwRs23XDwdFN4.jpg",
+          "title": "Furiosa: A Mad Max Saga",
+          "vote_average": 7.624,
+          "overview": "As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance, Furiosa must survive many trials as she puts together the means to find her way home."
+        },
+        {
           "id": 438631,
           "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
           "backdrop_path": "/lzWHmYdfeFiMIY4JaMmtR7GEli3.jpg",
           "title": "Dune",
           "vote_average": 7.779,
           "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive."
-        },
-        {
-          "id": 307081,
-          "poster_path": "/kSQ49Fi3NVTqGGXILmxV2T2pdkG.jpg",
-          "backdrop_path": "/1tXlUvfhLVjM5rZcN2783IhCkbu.jpg",
-          "title": "Southpaw",
-          "vote_average": 7.4,
-          "overview": "Billy \"The Great\" Hope, the reigning junior middleweight boxing champion, has an impressive career, a loving wife and daughter, and a lavish lifestyle. However, when tragedy strikes, Billy hits rock bottom, losing his family, his house and his manager. He soon finds an unlikely savior in Tick Willis, a former fighter who trains the city's toughest amateur boxers. With his future on the line, Hope fights to reclaim the trust of those he loves the most."
         },
         {
           "id": 120,

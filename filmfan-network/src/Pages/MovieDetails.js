@@ -62,6 +62,7 @@ function MovieDetails() {
 
   if (loggedIn) {
     fetch(`http://localhost:3030/users/${userObjFromStorage.id}`)
+    // fetch(`https://ffn-json-server-template.onrender.com/users/${userObjFromStoarge.id}`)
       .then(res => res.json())
       .then(data => {
         const likedFilms = data.likes
