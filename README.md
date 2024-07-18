@@ -5,7 +5,7 @@
 This is a personal project that is frontend only and showcases my knowledge I have aquired from studying frontend development in React JS. This application fetches data from TMDB rest API and displays movies and TV shows from it. It will allow the user to do the following:
 
 ## Demonstration video
-https://www.youtube.com/watch?v=U6icF8uMe8s&ab_channel=GrantCummings
+https://www.youtube.com/watch?v=ZKOYcFlZhDc&ab_channel=GrantCummings
 
 
 * Browse through genres of movies and TV shows
