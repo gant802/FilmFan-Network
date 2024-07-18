@@ -12,84 +12,28 @@
       "email": "grantcummings47@gmail.com",
       "favorites": [
         {
-          "id": 931,
-          "poster_path": "/omwfYtYuz67f5cyYqh7CvfqkpO3.jpg",
-          "backdrop_path": "/CK181mxEMf9iwQhvHd8DMgMFda.jpg",
-          "name": "He-Man and the Masters of the Universe",
-          "vote_average": 7.235,
-          "overview": "When Adam, Prince of the planet Eternia, raises his magic sword he transforms into He-Man (the most powerful man in the universe).  With his allies and friends, he battles the evil Skeletor and his minions to protect the secrets of Castle Greyskull."
-        },
-        {
-          "id": 76479,
-          "poster_path": "/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg",
-          "backdrop_path": "/7cqKGQMnNabzOpi7qaIgZvQ7NGV.jpg",
-          "name": "The Boys",
-          "vote_average": 8.474,
-          "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty."
-        },
-        {
-          "id": 967847,
-          "poster_path": "/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg",
-          "backdrop_path": "/5cCfqeUH2f5Gnu7Lh9xepY9TB6x.jpg",
-          "title": "Ghostbusters: Frozen Empire",
-          "vote_average": 6.566,
-          "overview": "The Spengler family returns to where it all started – the iconic New York City firehouse – to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age."
-        },
-        {
-          "id": 13475,
-          "poster_path": "/lV5OpzAss1z06YNagOVap1I35mH.jpg",
-          "backdrop_path": "/q7M0JpPixbEYT8EhnI7wTEMONxz.jpg",
-          "title": "Star Trek",
-          "vote_average": 7.433,
-          "overview": "The fate of the galaxy rests in the hands of bitter rivals. One, James Kirk, is a delinquent, thrill-seeking Iowa farm boy. The other, Spock, a Vulcan, was raised in a logic-based society that rejects all emotion. As fiery instinct clashes with calm reason, their unlikely but powerful partnership is the only thing capable of leading their crew through unimaginable danger, boldly going where no one has gone before. The human adventure has begun again."
-        },
-        {
-          "id": 823464,
-          "poster_path": "/1DTP1Ph4uzNO6ofRUm7eAimWoKD.jpg",
-          "backdrop_path": "/qrGtVFxaD8c7et0jUtaYhyTzzPg.jpg",
-          "title": "Godzilla x Kong: The New Empire",
-          "vote_average": 6.488,
-          "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own."
-        },
-        {
-          "id": 63639,
-          "poster_path": "/8djpxDeWpINnGhjpFXQjnBe6zbx.jpg",
-          "backdrop_path": "/7yKtaRij2giAj0s09F6gmB8XIje.jpg",
-          "name": "The Expanse",
-          "vote_average": 8.049,
-          "overview": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history."
-        },
-        {
           "id": 13,
           "poster_path": "/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
-          "backdrop_path": "/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
+          "backdrop_path": "/mzfx54nfDPTUXZOG48u4LaEheDy.jpg",
           "title": "Forrest Gump",
           "vote_average": 8.475,
           "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him."
         },
         {
-          "id": 122,
-          "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-          "backdrop_path": "/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
-          "title": "The Lord of the Rings: The Return of the King",
-          "vote_average": 8.48,
-          "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm."
+          "id": 2691,
+          "poster_path": "/xgfjxyV3g1S68opzuvG6G87muDp.jpg",
+          "backdrop_path": "/coHpOy9OJyFiHWeH36cSHMpLUHC.jpg",
+          "name": "Two and a Half Men",
+          "vote_average": 7.458,
+          "overview": "A hedonistic jingle writer's free-wheeling life comes to an abrupt halt when his brother and 10-year-old nephew move into his beach-front house."
         },
         {
-          "id": 361743,
-          "poster_path": "/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
-          "backdrop_path": "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
-          "title": "Top Gun: Maverick",
-          "vote_average": 8.221,
-          "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen."
-        },
-        {
-          "id": 299536,
-          "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-          "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-          "title": "Avengers: Infinity War",
-          "vote_average": 8.246,
-          "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain."
+          "id": 786892,
+          "poster_path": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+          "backdrop_path": "/wNAhuOZ3Zf84jCIlrcI6JhgmY5q.jpg",
+          "title": "Furiosa: A Mad Max Saga",
+          "vote_average": 7.646,
+          "overview": "As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance, Furiosa must survive many trials as she puts together the means to find her way home."
         }
       ],
       "likes": [
@@ -100,14 +44,6 @@
           "name": "Almost Human",
           "vote_average": 7.399,
           "overview": "The year is 2048. By mandate, every cop must partner with a robot. Detective John Kennex returns to work after waking up from a 17-month coma. As he adjusts to working with his new partner, Dorian, a discontinued android with unexpected emotional responses, John also must learn to get along with his new colleagues."
-        },
-        {
-          "id": 786892,
-          "poster_path": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
-          "backdrop_path": "/q8IEFmEGGSGmAWfwRs23XDwdFN4.jpg",
-          "title": "Furiosa: A Mad Max Saga",
-          "vote_average": 7.624,
-          "overview": "As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance, Furiosa must survive many trials as she puts together the means to find her way home."
         },
         {
           "id": 438631,
